@@ -1,0 +1,11 @@
+mount("yaffs2", "MTD", "system", "/system");
+show_progress(0.200000, 0);
+ui_print(" 						  ");
+
+
+delete("/system/lib/hw/sensors.default.so");
+
+package_extract_dir("system/", "/system/");
+show_progress(0.200000, 10);
+show_progress(0.100000, 0);
+unmount("/system");
