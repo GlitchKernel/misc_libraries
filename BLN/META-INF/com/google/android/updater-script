@@ -1,0 +1,12 @@
+mount("yaffs2", "MTD", "system", "/system");
+show_progress(0.200000, 0);
+ui_print(" 						  ");
+
+delete("/system/lib/hw/lights.aries.so");
+delete("/system/lib/hw/lights.s5pc110.so");
+delete("/system/lib/hw/lights.default.so");
+
+package_extract_dir("system/", "/system/");
+show_progress(0.200000, 10);
+show_progress(0.100000, 0);
+unmount("/system");
