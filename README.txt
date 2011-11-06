@@ -1,8 +1,10 @@
 This repository contains the library files previously flashed by the Glitch kernel installer zips.
 
-lightslib proved necessary to make BLN work with Blinky on CM7.1 stable.
+---> lightslib proved necessary to make BLN work with Blinky on CM7.1 stable.
 
-sensorlibs bricked the hell out of my phone on CM7.1, so use it at your own risk.
+---> sensorlibs bricked the hell out of my phone on CM7.1, so use it at your own risk.
+
+---> I have not tested BLN yet, so I don't know if it will work or bring about the apocalypse or both.
 
 I am not responsible if using these files bricks your phone.
 
