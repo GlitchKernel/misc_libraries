@@ -6,6 +6,8 @@ This repository contains the library files previously flashed by the Glitch kern
 
 ---> I have not tested BLN yet, so I don't know if it will work or bring about the apocalypse or both.
 
+---> 3-button recovery flashes a new recovery that allows us to use 3-button method to get into reocvery. Kernel side support is required.
+
 I am not responsible if using these files bricks your phone.
 
 If you're not sure you should flash either of these, then don't!
