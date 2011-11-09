@@ -8,6 +8,8 @@ This repository contains the library files previously flashed by the Glitch kern
 
 ---> 3-button recovery flashes a new recovery that allows us to use 3-button method to get into reocvery. Kernel side support is required.
 
+---> old_recovery flashes the old CM7 compatible recovery that's accessible by the 3-finger method. This un-does what 3-button recovery does.
+
 I am not responsible if using these files bricks your phone.
 
 If you're not sure you should flash either of these, then don't!
